@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(133's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::|=</FUNCTION>
+    <DECORATED>??_5gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(143's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::&amp;=</FUNCTION>
+    <DECORATED>??_4gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(153's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::^=</FUNCTION>
+    <DECORATED>??_6gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>span</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

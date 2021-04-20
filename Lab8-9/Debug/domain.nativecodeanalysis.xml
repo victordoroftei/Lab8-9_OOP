@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::{ctor}</FUNCTION>
+    <DECORATED>??0Oferta@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Oferta::{ctor}</FUNCTION>
+    <DECORATED>??0Oferta@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::operator==' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::==</FUNCTION>
+    <DECORATED>??8Oferta@@QBE_NABV0@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::getPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::getPret</FUNCTION>
+    <DECORATED>?getPret@Oferta@@QBEHXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::setPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::setPret</FUNCTION>
+    <DECORATED>?setPret@Oferta@@QAEXH@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

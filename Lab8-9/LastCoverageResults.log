@@ -1,0 +1,21 @@
+[2021-04-20 13:56:06] [info] Start Program:
+Path:"E:\\__Teme\\Object-Oriented Programming (OOP)\\Lab8-9\\Debug\\Lab8-9.exe"
+Arguments:
+Working directory: "E:\\__Teme\\Object-Oriented Programming (OOP)\\Lab8-9\\Lab8-9\\"
+Modules: Selected: E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Debug\Lab8-9.exe Excluded: 
+Sources: Selected: E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Vic\AppData\Local\Temp\omhthwmn.qae 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-04-20 13:56:06] [info] Module: E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Debug\Lab8-9.exe is selected because it matches selected pattern: E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Debug\Lab8-9.exe
+[2021-04-20 13:56:07] [info] ----------------------------------------------------
+[2021-04-20 13:56:07] [info] Coverage binary generated in file: C:\Users\Vic\AppData\Local\Temp\omhthwmn.qae
+[2021-04-20 13:56:07] [info] ----------------------------------------------------

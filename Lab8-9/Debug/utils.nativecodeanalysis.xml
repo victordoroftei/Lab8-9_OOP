@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(133's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::|=</FUNCTION>
+    <DECORATED>??_5gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(143's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::&amp;=</FUNCTION>
+    <DECORATED>??_4gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(153's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::^=</FUNCTION>
+    <DECORATED>??_6gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>span</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'cmpString' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cmpString</FUNCTION>
+    <DECORATED>?cmpString@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'cmpInt' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cmpInt</FUNCTION>
+    <DECORATED>?cmpInt@@YA_NHH_N@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DomainError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DomainError::getCode</FUNCTION>
+    <DECORATED>?getCode@DomainError@@QBEHXZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'RepoError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>RepoError::getCode</FUNCTION>
+    <DECORATED>?getCode@RepoError@@QBEHXZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishlistError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishlistError::getCode</FUNCTION>
+    <DECORATED>?getCode@WishlistError@@QBEHXZ</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UndoError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UndoError::getCode</FUNCTION>
+    <DECORATED>?getCode@UndoError@@QBEHXZ</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::{ctor}</FUNCTION>
+    <DECORATED>??0Oferta@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Oferta', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Oferta::{ctor}</FUNCTION>
+    <DECORATED>??0Oferta@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::operator==' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::==</FUNCTION>
+    <DECORATED>??8Oferta@@QBE_NABV0@@Z</DECORATED>
+    <FUNCLINE>27</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::getPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::getPret</FUNCTION>
+    <DECORATED>?getPret@Oferta@@QBEHXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Oferta::setPret' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Oferta::setPret</FUNCTION>
+    <DECORATED>?setPret@Oferta@@QAEXH@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(133's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::|=</FUNCTION>
+    <DECORATED>??_5gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(143's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::&amp;=</FUNCTION>
+    <DECORATED>??_4gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(153's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::^=</FUNCTION>
+    <DECORATED>??_6gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>span</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>RepoLab.h</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class RepoLab', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>RepoLab::{dtor}</FUNCTION>
+    <DECORATED>??1RepoLab@@UAE@XZ</DECORATED>
+    <FUNCLINE>230</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>RepoAbstract.h</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class RepoAbstract', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>RepoAbstract::{dtor}</FUNCTION>
+    <DECORATED>??1RepoAbstract@@UAE@XZ</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ActiuneUndo', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ActiuneUndo::{dtor}</FUNCTION>
+    <DECORATED>??1ActiuneUndo@@UAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>service.h</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Service::Service' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Service::{ctor}</FUNCTION>
+    <DECORATED>??0Service@@QAE@AAVRepoAbstract@@AAVValidator@@AAVWishlist@@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>UI.h</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Console::Console' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Console::{ctor}</FUNCTION>
+    <DECORATED>??0Console@@QAE@AAVService@@AAVRepoAbstract@@AAVValidator@@AAVWishlist@@@Z</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>Lab8-9.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'c1' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>Lab8-9.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'c2' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>repo.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Repo::{ctor}</FUNCTION>
+    <DECORATED>??0Repo@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Wishlist::{ctor}</FUNCTION>
+    <DECORATED>??0Wishlist@@QAE@XZ</DECORATED>
+    <FUNCLINE>179</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>190</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Wishlist::getDimensiune' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Wishlist::getDimensiune</FUNCTION>
+    <DECORATED>?getDimensiune@Wishlist@@QBEHXZ</DECORATED>
+    <FUNCLINE>190</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>service.cpp</FILENAME>
+      <LINE>201</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Wishlist::wlGolire' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Wishlist::wlGolire</FUNCTION>
+    <DECORATED>?wlGolire@Wishlist@@QAEXXZ</DECORATED>
+    <FUNCLINE>201</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'cmpString' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cmpString</FUNCTION>
+    <DECORATED>?cmpString@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'cmpInt' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cmpInt</FUNCTION>
+    <DECORATED>?cmpInt@@YA_NHH_N@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DomainError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DomainError::getCode</FUNCTION>
+    <DECORATED>?getCode@DomainError@@QBEHXZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'RepoError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>RepoError::getCode</FUNCTION>
+    <DECORATED>?getCode@RepoError@@QBEHXZ</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'WishlistError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>WishlistError::getCode</FUNCTION>
+    <DECORATED>?getCode@WishlistError@@QBEHXZ</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>utils.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UndoError::getCode' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UndoError::getCode</FUNCTION>
+    <DECORATED>?getCode@UndoError@@QBEHXZ</DECORATED>
+    <FUNCLINE>125</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

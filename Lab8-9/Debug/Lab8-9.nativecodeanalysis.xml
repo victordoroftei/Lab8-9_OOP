@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(133's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::|=</FUNCTION>
+    <DECORATED>??_5gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>135</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(143's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::&amp;=</FUNCTION>
+    <DECORATED>??_4gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>143</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>gsl_byte</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26487</DEFECTCODE>
+    <DESCRIPTION>Don't return a pointer '(153's result)' that may be invalid (lifetime.4).</DESCRIPTION>
+    <FUNCTION>gsl::^=</FUNCTION>
+    <DECORATED>??_6gsl@@YAAAW4byte@0@AAW410@W410@@Z</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+        <FILENAME>gsl_byte</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\_CPP\vcpkg\installed\x86-windows\include\gsl\</FILEPATH>
+      <FILENAME>span</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>RepoLab.h</FILENAME>
+      <LINE>230</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class RepoLab', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>RepoLab::{dtor}</FUNCTION>
+    <DECORATED>??1RepoLab@@UAE@XZ</DECORATED>
+    <FUNCLINE>230</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>RepoAbstract.h</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class RepoAbstract', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>RepoAbstract::{dtor}</FUNCTION>
+    <DECORATED>??1RepoAbstract@@UAE@XZ</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>undo.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ActiuneUndo', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ActiuneUndo::{dtor}</FUNCTION>
+    <DECORATED>??1ActiuneUndo@@UAE@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>service.h</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Service::Service' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Service::{ctor}</FUNCTION>
+    <DECORATED>??0Service@@QAE@AAVRepoAbstract@@AAVValidator@@AAVWishlist@@@Z</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>UI.h</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Console::Console' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Console::{ctor}</FUNCTION>
+    <DECORATED>??0Console@@QAE@AAVService@@AAVRepoAbstract@@AAVValidator@@AAVWishlist@@@Z</DECORATED>
+    <FUNCLINE>122</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>Lab8-9.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'c1' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\__Teme\Object-Oriented Programming (OOP)\Lab8-9\Lab8-9\</FILEPATH>
+      <FILENAME>Lab8-9.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'c2' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
